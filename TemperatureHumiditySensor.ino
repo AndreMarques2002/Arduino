@@ -1,4 +1,4 @@
-//ANALISE DA TEMPERATURA E HUMIDADE
+//ANALISE DA TEMPERATURA E UMIDADE
 //obs.: primeiro eh necessario baixar e instalar a biblioteca DHT
 #include <dht.h> // biblioteca DHT (sera utilizada para o sensor analisar os parametros)
 
@@ -15,8 +15,8 @@ void loop(){
 	int leitura = SensorTemp.read(DHTPin); // le o valor da temperatura e humidade
 	Serial.print("Temperatura = ");
 	Serial.print(SensorTemp.temperature + "C\n"); // imprime a temperatura
-	Serial.print("Humidade = ");
-	Serial.print(SensorTemp.temperature + "%\n"); // imprime a humidade
+	Serial.print("Umidade = ");
+	Serial.print(SensorTemp.temperature + "%\n"); // imprime a umidade
 	delay(1000); // a leitura dos parametros eh realizada a cada 1 segundo 
 
 }
