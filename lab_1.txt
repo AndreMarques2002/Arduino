@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Tutorial</title>
+<title>Lab 1</title>
 </head>
 <body>
+// Add Nome, foto, formacao, audiodescrição do site, add o link do lab1 (em pdf), 
+<h1>Página Pessoal</h1>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<h2>Dados pessoais</h2>
+<li>Nome: André Marques da Silva</li>  </br>
+<li>Idade: 21 anos </li>  </br>
+
+
+<h2>Formação</h2>
+<li>Bacharelado em Ciência e Tecnologia</li> </br>
+<li>Bacharelado em Engenharia de Informação</li> </br>
+
+<h2>Projetos desenvolvidos</h2>
+<li><a href="https://github.com/IEEE-AESS-Atom-Aircraft-Systems/Toolbox-Desempenho">Toolbox de Desempenho de aeronaves</a></li> </br>
+<li><a href="https://github.com/AndreMarques2002/AREngineering">Aplicativo <i>mobile</i> de Realidade Aumentada</a></li> </br>
+<li><a href="https://github.com/IEEE-AESS-Atom-Aircraft-Systems/ControladorPID">Controlador PID</a></li> </br>
+<>
+
+
+<img src="addMinhaFoto.png" alt="Minha foto" width="104" height="142">
+
+
 
 </body>
 </html>
